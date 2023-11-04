@@ -17,3 +17,7 @@ th,td{
 .color_red{
     color:red
 }
+.row1{
+    border:  1px solid red;
+    border-collapse: collapse;
+}
