@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+}
+ul{
+    margin: 0;
+    padding: 0px 50px 0px 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: rgb(127, 181, 177,1);
+}
+a:active{
+    color: rgb(220, 217, 210,1);
+}
+.bg1{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29599.jpg?w=1380&t=st=1699357810~exp=1699358410~hmac=cb2f017c178fa04233697ca257c3867a07ee06fdfa6c96c8b767ba2b2353767c);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.bg2{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-29600.jpg?w=1380&t=st=1699358206~exp=1699358806~hmac=b6c022683f1e979c7e29b53913d9ca36304d94d28f11d43b11307938a48b5f9b);
+    background-position: center center;
+    background-size: cover;
+}
+.bg3{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-28710.jpg?w=1380&t=st=1699358218~exp=1699358818~hmac=090e25b6084f536aa32ad8b718ea3c01b7627a9bbed268c04e57f93d5bfec939);
+    background-position: center center;
+    background-size: cover;
+
+}
+.bg4{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29017.jpg?w=1380&t=st=1699358221~exp=1699358821~hmac=e33c0ac3a08a9b5f674ab41c1bc138ec6f2fe65374c9bbdba0860bdedbbf0a43);
+    background-position: center center;
+    background-size: cover;
+
+}
+.bg5{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29018.jpg?w=1380&t=st=1699358753~exp=1699359353~hmac=9bfae45dcb77e4f9af92d1582ca9ded6be1e157097fbc7e714ad61df73f976db);
+    background-position: center center;
+    background-size: cover;
+}
+.bg6{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-28711.jpg?w=1380&t=st=1699358743~exp=1699359343~hmac=c33a1548bce0bf3f2b567c86414e99184c25ac52cd5da63a9178e335220b0050);
+    background-position: center center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    height: 800px;
+}
+footer{
+    text-align: center;
+    padding: 20px; 
+}
