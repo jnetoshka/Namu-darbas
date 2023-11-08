@@ -23,10 +23,10 @@ a:hover{
     color: rgb(127, 181, 177,1);
 }
 a:active{
-    color: rgb(220, 217, 210,1);
+    color: white;
 }
 .bg1{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29599.jpg?w=1380&t=st=1699357810~exp=1699358410~hmac=cb2f017c178fa04233697ca257c3867a07ee06fdfa6c96c8b767ba2b2353767c);
+    background-image: url(https://img.freepik.com/free-photo/adult-woman-doing-yoga-home_23-2148756356.jpg?w=1800&t=st=1699423783~exp=1699424383~hmac=cccde2d7dd1c8967e35e7e505f1cf93b6c8d0764546757d0f2c4169f5756f2ef);
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;
@@ -69,4 +69,25 @@ section{
 footer{
     text-align: center;
     padding: 20px; 
+}
+.container{
+    text-align: left;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 18px;
+    width: 500px;
+    color: black;
+}
+.container2{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 70px;
+    width:500px;
+    color: white;
+}
+.container3{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 150px;
+    font-size: 20px;
 }
