@@ -34,39 +34,30 @@ a:active{
     color: white;
 }
 .bg1{
-    background-image: url(https://img.freepik.com/free-photo/adult-woman-doing-yoga-home_23-2148756356.jpg?w=1800&t=st=1699423783~exp=1699424383~hmac=cccde2d7dd1c8967e35e7e505f1cf93b6c8d0764546757d0f2c4169f5756f2ef);
+    background-image: url(https://images.pexels.com/photos/4998816/pexels-photo-4998816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-position: center center;
     background-size:cover;
-    background-attachment: fixed;
+   
 }
 .bg2{
-    /* background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-29600.jpg?w=1380&t=st=1699358206~exp=1699358806~hmac=b6c022683f1e979c7e29b53913d9ca36304d94d28f11d43b11307938a48b5f9b); */
-    background-color: rgb(157 156 150);
+    background-color:#e2e6e9;
     background-position: center center;
     background-size: cover;
 }
 .bg3{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-28710.jpg?w=1380&t=st=1699358218~exp=1699358818~hmac=090e25b6084f536aa32ad8b718ea3c01b7627a9bbed268c04e57f93d5bfec939);
+    /* background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-28710.jpg?w=1380&t=st=1699358218~exp=1699358818~hmac=090e25b6084f536aa32ad8b718ea3c01b7627a9bbed268c04e57f93d5bfec939); */
+    background-color: #bdc4c0;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 .bg4{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29017.jpg?w=1380&t=st=1699358221~exp=1699358821~hmac=e33c0ac3a08a9b5f674ab41c1bc138ec6f2fe65374c9bbdba0860bdedbbf0a43);
+    background-image: url(https://images.pexels.com/photos/5012071/pexels-photo-5012071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-position: center center;
     background-size: cover;
+}
 
-}
-.bg5{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29018.jpg?w=1380&t=st=1699358753~exp=1699359353~hmac=9bfae45dcb77e4f9af92d1582ca9ded6be1e157097fbc7e714ad61df73f976db);
-    background-position: center center;
-    background-size: cover;
-}
-.bg6{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-28711.jpg?w=1380&t=st=1699358743~exp=1699359343~hmac=c33a1548bce0bf3f2b567c86414e99184c25ac52cd5da63a9178e335220b0050);
-    background-position: center center;
-    background-size: cover;
-}
 header{
     display: flex;
     justify-content: space-between;
@@ -83,7 +74,7 @@ section{
     padding-bottom: 60px;
 }
 #three{
-    min-height: 1200px;
+    min-height: 800px;
 
 
 }
