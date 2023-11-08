@@ -4,9 +4,16 @@ html{
 body{
     margin:0;
 }
+.logo{
+    padding-left: 60px;
+}
+#logo{
+    height: 180px;
+
+}
 ul{
     margin: 0;
-    padding: 0px 50px 0px 0px;
+    padding: 0px 60px 0px 0px;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -67,7 +74,20 @@ header{
 }
 section{
     height: 800px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
 }
+#two{
+    padding-bottom: 60px;
+}
+#three{
+    min-height: 1200px;
+
+
+}
+
 footer{
     text-align: center;
     padding: 20px; 
@@ -105,7 +125,50 @@ footer{
     justify-content: space-around;
 }
 #instructors{
-    text-align: center;
+    text-align: left;
     color: black;
     width: 300px;
+}
+.crop{
+    width: 300px;
+}
+.table1{
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+    border-collapse: collapse;
+    background-color: none;
+}
+.table2{
+    width: 500px;
+    height: auto;
+    margin-right: 60px;
+    border-collapse: collapse;
+    background-color: none;
+}
+td{
+    border-bottom: 1px solid rgb(127, 181, 177,1);
+}
+.td1{
+    width: 50px;
+    height: 100px;
+    text-align: left;
+}
+.td2{
+    width: 150px;
+    height: 100px;
+    text-align: left;
+}
+.td3{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.tabspace{
+display: flex;
+justify-content: space-between;
+
+}
+th{
+    text-align: left;
 }
