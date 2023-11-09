@@ -3,6 +3,7 @@ html{
 }
 body{
     margin:0;
+
 }
 .logo{
     padding-left: 60px;
@@ -21,15 +22,19 @@ ul{
 a{
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     color: black;
 
 }
 a:visited{
     color: black;
 }
-a:hover{
+.head:hover{
     color: rgb(127, 181, 177,1);
     font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
 }
 a:active{
     color: white;
@@ -41,13 +46,13 @@ a:active{
    
 }
 .bg2{
-    background-color:#e2e6e9;
+    background-color:white;
     background-position: center center;
     background-size: cover;
 }
 .bg3{
     /* background-image: url(https://img.freepik.com/free-photo/beautiful-woman-is-engaged-yoga-studio_1157-28710.jpg?w=1380&t=st=1699358218~exp=1699358818~hmac=090e25b6084f536aa32ad8b718ea3c01b7627a9bbed268c04e57f93d5bfec939); */
-    background-color: #bdc4c0;
+    background-color: #e2e6e9;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -83,8 +88,12 @@ section{
 footer{
     text-align: center;
     padding: 20px; 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
 }
 .container1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     text-align: left;
     padding-top: 150px ;
     padding-left: 60px;
@@ -93,6 +102,8 @@ footer{
     color: black;
 }
 .container2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     text-align: left;
     padding-left: 60px;
     font-size: 70px;
@@ -100,6 +111,8 @@ footer{
     color: white;
 }
 .container3{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     text-align: left;
     padding-left: 60px;
     font-size: 18px;
@@ -107,12 +120,24 @@ footer{
     color: black;
 }
 .yoga{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     text-align: center;
     padding-top: 60px;
     font-size: 40px;
     color:white;
 }
+.yoga2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    color:black;
+}
 .instructors{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
     display: flex;
     justify-content: space-around;
 }
@@ -124,51 +149,57 @@ footer{
 .crop{
     width: 300px;
 }
-.table1{
-    width: 500px;
+.table{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sulphur Point', sans-serif;
+    width: auto;
     height: auto;
-    margin-left: 60px;
+    margin: auto;
     border-collapse: collapse;
     background-color: none;
 }
-.table2{
-    width: 500px;
-    height: auto;
-    margin-right: 60px;
-    border-collapse: collapse;
-    background-color: none;
+.space{
+    width: 60px;
+}
+th{
+    padding:5px;
 }
 td{
     border-bottom: 1px solid rgb(127, 181, 177,1);
+    padding:5px;
 }
 .td1{
-    width: 50px;
+    width: 100px;
     height: 100px;
     text-align: left;
 }
 .td2{
-    width: 150px;
+    width: 200px;
     height: 100px;
     text-align: left;
 }
 .td3{
-    width: 100px;
+    width: auto;
     height: 100px;
     text-align: center;
-}
-.tabspace{
-display: flex;
-justify-content: space-between;
 
 }
+
 th{
     text-align: left;
 }
-.box{
-    padding-top: 10px;
-    width: 180px;
-    height: 40px;
+
+.elementor_button{
+    margin: auto;
+    background-color: rgb(127, 181, 177,1);
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+}
+.elementor_button:hover{
     background-color: white;
     margin:auto;
     border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    color:  rgb(127, 181, 177,1);;
 }
+
