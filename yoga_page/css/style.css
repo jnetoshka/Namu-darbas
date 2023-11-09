@@ -22,6 +22,7 @@ a{
     text-decoration: none;
     font-size: 20px;
     color: black;
+
 }
 a:visited{
     color: black;
@@ -162,4 +163,12 @@ justify-content: space-between;
 }
 th{
     text-align: left;
+}
+.box{
+    padding-top: 10px;
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    margin:auto;
+    border-radius: 30px;
 }
