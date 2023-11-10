@@ -9,30 +9,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="contact">
         <div class="contact_inner">
             <div class="left">
-                <h1 class="fonts">Get in <span class="color">touch</span></h1>
-                <p class="fonts">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
+                <p class="fonts fs2">Get in <span class="color">touch</span></p>
+                <p class="fonts fs">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
                 <form>
                     <input type="text" placeholder="Contact name" required>
                     <input type="text" placeholder="Street" required>
-                    <div class="space">
+                    <div class="space1">
                     <input type="text" placeholder="City" required>
+                    </div>
+                    <div class="space2">
                     <input id="postcode" type="text" placeholder="Postcode" required>
                     </div>
                     <input type="text" placeholder="Phone" required>
                     <input type="email" placeholder="E-mail" required>
                     <input type="text" placeholder="Let's talk about your idea" required>
-                    <input type="file" name="Upload Additional File">
+                    <br>
+                    <br>
+                   <div id="upload_container">
+                    <div><img id="upload_image" src="images/upload.svg"></div>
+                       <div><input id="file_input" type="file" name="file" multiple>
+                    <label for="file_input">Upload Additional File</label></div>
+                </div>
                     <p class="text">Attach file. File size of your documents should not exceed 10MB</p>
-                    <input type="checkbox">
-                    <span class="text">I want to protect my data by signing an NDA</span>
-                    <button class="text">SUBMIT</button>
+                    <br>
+                    <label class="text2"><input type="checkbox"> I want to protect my data by signing an NDA</label>
+                    <br>
+                    <br>
+                    <button class="text button">SUBMIT</button>
                 </form>
                 <div class="fonts">
                     <div><strong>Phone</strong></div>
