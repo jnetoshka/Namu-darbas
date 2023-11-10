@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: url(../images/bg.png) no-repeat center center;
+
+}
+.fonts{
+    font-family: 'Montserrat', sans-serif;
+}
+.contact{
+    position: relative;
+    background-color: white;
+    max-width: 1140px;
+    width: 100%;
+    margin: 100px auto;
+    border-radius: 40px;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #6DE1C2;
+    height: 100% ;
+    width: 419px;
+}
+.contact_inner{
+    height: 550px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.left{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+}
+.right{
+    background: url(../images/maps.png);
+    width: 50%;
+    height: 100%;
+    
+}
+@media screen and (max-width: 768px) {
+    .contact_inner{
+        flex-direction: column;
+    }
+    .left,
+    .right{
+        width: 100%;
+    }
+}
+input{
+    display: block;
+    padding:15px;
+    border: 0px;
+    border-bottom: 1px solid #8E8E8E;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+input[type="checkbox"]{
+    width:auto;}
+
+.text{
+    font-family:'Inter', sans-serif;
+    }
+.color{
+    color: #6DE1C2;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+
+}
