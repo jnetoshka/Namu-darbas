@@ -16,6 +16,10 @@ body{
     font-size: 46px;
     font-weight: bold;
 }
+.fs3{
+    font-size: 13px;
+    font-weight: bold;
+}
 .contact{
     position: relative;
     background-color: white;
@@ -146,3 +150,33 @@ input[type="checkbox"]{
     float: rigth;
     width: 50%;
 } */
+.icon{
+    width: 28px;
+    height: 28px;
+}
+.icons{
+    display:flex;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.phone h5{
+    margin:0;
+}
+.phone p{
+    margin:0;
+    margin-top: 5%;
+    white-space: nowrap;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
