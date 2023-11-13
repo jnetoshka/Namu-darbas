@@ -29,10 +29,57 @@ body{
     padding-left: 10%;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 .right{
-    background-color: rgb(179, 161, 161);
+    background-color: white;
     width: 65%;
     height: 100%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding-top: 25%;
+}
+.up{
+    font-family: 'Open Sans', sans-serif;
+    color: #6B7280;
+    font-size: 16px;
+}
+.up span{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.entrance{
+    display: flex;
+    justify-content: space-between;
+}
+.google{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color:#4285F4 ;
+    border-radius: 4px;
+    padding: 2px;
+    padding-right: 30px;
 
+}
+.google img{
+    justify-content: left;
+    padding-right: 30px;
+}
+.facebook{
+    float:right;
+    border:none;
+    border-radius: 4px;
+    background-color: #ECF2FC;
+    padding: 6px;
 }
