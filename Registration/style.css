@@ -1,0 +1,38 @@
+body{
+    background-color: #2A2D35;
+}
+.section{
+    position: relative;
+    display: flex;
+    margin: 100px auto;
+    background-color: white;
+    width: 1366px;
+    height: 768px;
+}
+.left{
+    background-image: url(images/left.png);
+    width: 35%;
+    height: 100%;
+}
+.box{
+    padding: 24px;
+}
+.logo{
+    display: flex;
+    justify-content:left;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.box p{
+    display: flex;
+    justify-content: left;
+    padding-left: 10%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.right{
+    background-color: rgb(179, 161, 161);
+    width: 65%;
+    height: 100%;
+
+}
