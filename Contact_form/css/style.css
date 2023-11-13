@@ -16,7 +16,6 @@ body{
     border-radius: 40px;
     padding: 30px 50px;
     overflow: hidden;
-    height: 950px;
 
 }
 .contact::after{
@@ -35,7 +34,7 @@ body{
     z-index: 1;
 }
 .left{
-    width: 50%;
+    width: 52%;
     height: 100%;
     padding: 40px;
     background-color: white;
@@ -44,15 +43,20 @@ body{
     font-size: 46px;
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
+    margin: 0;
+
+}
+.left h1 span{
+    color: #6DE1C2;
 }
 .left p{
     font-size: 14px;
     font-family:'Montserrat', sans-serif;
 }
 .right{
-    background-color: blueviolet;
-    background-image: url(../images/maps.png);
-    width: 50%;
+    /* background-color: blueviolet;
+    background-image: url(../images/maps.png); */
+    width: 48%;
     height: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -85,10 +89,6 @@ input[type="checkbox"]{
         color: #383C3E;
         font-size: 14px;
         }
-
-.color{
-    color: #6DE1C2;
-}
 .space1{
     float: left;
     width: 60%;
